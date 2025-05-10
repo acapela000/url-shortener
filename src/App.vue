@@ -45,9 +45,9 @@
 
 <script setup>
 import { ref, computed, markRaw } from 'vue'
-import UrlShortener from './UrlShortener.vue'
-import AuthScreen from './AuthScreen.vue'
-import UserProfile from './UserProfile.vue'
+// import UrlShortener from '@/components/UrlShortener.vue'
+// import AuthScreen from '@/components/AuthScreen.vue'
+import UserProfile from '@/components/UserProfile.vue'
 
 // State
 const currentView = ref('urlShortener')
